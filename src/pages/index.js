@@ -3,6 +3,7 @@ import React from "react"
 import Header from "./../components/header"
 import About from "./../components/about"
 import profilepic from "./../images/profilepic.jpg"
+import Timeline from "./../components/timeline"
 
 const data = {
   main: {
@@ -95,6 +96,7 @@ const IndexPage = () => (
   <>
     <Header data={data.main} />
     <About data={data.main} />
+    <Timeline />
   </>
 )
 

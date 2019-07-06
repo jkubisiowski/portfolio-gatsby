@@ -1,9 +1,12 @@
-import React, { Component } from "react";
-import { VerticalTimeline } from "react-vertical-timeline-component";
-import { VerticalTimelineElement } from "react-vertical-timeline-component";
-import WorkIcon from "material-ui-icons/Work";
-import StarIcon from "material-ui-icons/Star";
-import "react-vertical-timeline-component/style.min.css";
+import React, { Component } from "react"
+import { VerticalTimeline } from "react-vertical-timeline-component"
+import { VerticalTimelineElement } from "react-vertical-timeline-component"
+import WorkIcon from "material-ui-icons/Work"
+import "react-vertical-timeline-component/style.min.css"
+import imageNt from "../images/portfolio/nationaltheatret.png"
+import imageBilbo from "../images/portfolio/bilbo.png"
+import imageInnogear from "../images/portfolio/innogear.png"
+import imageNeseser from "../images/portfolio/neseser.png"
 
 export default class Timeline extends Component {
   render() {
@@ -16,8 +19,12 @@ export default class Timeline extends Component {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">National Theatre in Oslo</h3>
-            <h4 className="vertical-timeline-element-subtitle">Forte_ Digital</h4>
+            <h3 className="vertical-timeline-element-title">
+              National Theatre in Oslo
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Forte_ Digital
+            </h4>
             <div className="container">
               <span className="badge">C#</span>
               <span className="badge">ASP.NET MVC</span>
@@ -26,10 +33,11 @@ export default class Timeline extends Component {
               <span className="badge">React</span>
             </div>
             <p className="project-description">
-              The website of the National Theatre consists of CMS and ticketing system. It contains many integrations with external systems
-              such as seat server, payment gateway, mailing system.
+              The website of the National Theatre consists of CMS and ticketing
+              system. It contains many integrations with external systems such
+              as seat server, payment gateway, mailing system.
             </p>
-            <img src="images/portfolio/nationaltheatret.png" alt="nationaltheatret" />
+            <img src={imageNt} alt="nationaltheatret" />
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -37,7 +45,9 @@ export default class Timeline extends Component {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Bilbo - social platform for book sharing</h3>
+            <h3 className="vertical-timeline-element-title">
+              Bilbo - social platform for book sharing
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">Own project</h4>
             <div className="container">
               <span className="badge">C#</span>
@@ -48,10 +58,12 @@ export default class Timeline extends Component {
               <span className="badge">Angular</span>
             </div>
             <p className="project-description">
-              Bilbo is a web application that helps people share books. Users make friends similar as in Facebook and add their books to
-              virtual library. Then they borrow books from their friends and the application keeps track of exchange process.
+              Bilbo is a web application that helps people share books. Users
+              make friends similar as in Facebook and add their books to virtual
+              library. Then they borrow books from their friends and the
+              application keeps track of exchange process.
             </p>
-            <img src="images/portfolio/bilbo.png" alt="bilbo" />
+            <img src={imageBilbo} alt="bilbo" />
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -59,7 +71,9 @@ export default class Timeline extends Component {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Manufacturing executing system (MES)</h3>
+            <h3 className="vertical-timeline-element-title">
+              Manufacturing executing system (MES)
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">Abis</h4>
             <div className="container">
               <span className="badge">C#</span>
@@ -71,9 +85,12 @@ export default class Timeline extends Component {
               <span className="badge">Electron</span>
             </div>
             <p className="project-description">
-              Distributed system for production execution for 3 plants involving production planning, production reporting, maintenance and
-              devices integration. As it provides critical services for production it has to be fast, reliable and be up 24h. MES is
-              strongly integrated with SAP including exchange data about orders, warehouse, production results and more.
+              Distributed system for production execution for 3 plants involving
+              production planning, production reporting, maintenance and devices
+              integration. As it provides critical services for production it
+              has to be fast, reliable and be up 24h. MES is strongly integrated
+              with SAP including exchange data about orders, warehouse,
+              production results and more.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -82,7 +99,9 @@ export default class Timeline extends Component {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Overall Equipment Effectiveness (OEE) monitoring system</h3>
+            <h3 className="vertical-timeline-element-title">
+              Overall Equipment Effectiveness (OEE) monitoring system
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">Abis</h4>
             <div className="container">
               <span className="badge">C#</span>
@@ -92,9 +111,12 @@ export default class Timeline extends Component {
               <span className="badge">Angular</span>
             </div>
             <p className="project-description">
-              Complete industrial solution monitoring the effectiveness of the machines including Overall Equipment Effectiveness (OEE) and
-              other key performance indicators. It keeps track of all the machines continuously checking it status, number of produced
-              details, scraps and alarms. Processed data are preseneted to plant workers as a web application.
+              Complete industrial solution monitoring the effectiveness of the
+              machines including Overall Equipment Effectiveness (OEE) and other
+              key performance indicators. It keeps track of all the machines
+              continuously checking it status, number of produced details,
+              scraps and alarms. Processed data are preseneted to plant workers
+              as a web application.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -103,16 +125,21 @@ export default class Timeline extends Component {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Pedestrian detection using convolutional neural networks</h3>
-            <h4 className="vertical-timeline-element-subtitle">Master thesis</h4>
+            <h3 className="vertical-timeline-element-title">
+              Pedestrian detection using convolutional neural networks
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Master thesis
+            </h4>
             <div className="container">
               <span className="badge">Deep learning</span>
               <span className="badge">GPU computing</span>
               <span className="badge">Python</span>
             </div>
             <p className="project-description">
-              Vision system that can analyze an image and detect pedestrians. It uses deep convolutional neural networks as primary
-              algorithm and was trained on large datasets using GPU computing power.
+              Vision system that can analyze an image and detect pedestrians. It
+              uses deep convolutional neural networks as primary algorithm and
+              was trained on large datasets using GPU computing power.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -121,7 +148,9 @@ export default class Timeline extends Component {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Distributied quality control and measurement system</h3>
+            <h3 className="vertical-timeline-element-title">
+              Distributied quality control and measurement system
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">Abis</h4>
             <div className="container">
               <span className="badge">C#</span>
@@ -130,9 +159,12 @@ export default class Timeline extends Component {
               <span className="badge">SQL Server</span>
             </div>
             <p className="project-description">
-              Industrial system that enables plant workers gather all quality control related parameters and measurements. It is connected
-              with physical measuring devices so all results are automatically captured. It is also integrated with higher levels systems
-              like SAP to provide all information of orders, details history and other important data.
+              Industrial system that enables plant workers gather all quality
+              control related parameters and measurements. It is connected with
+              physical measuring devices so all results are automatically
+              captured. It is also integrated with higher levels systems like
+              SAP to provide all information of orders, details history and
+              other important data.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -141,7 +173,9 @@ export default class Timeline extends Component {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">NESESER - Computer network monitoring system</h3>
+            <h3 className="vertical-timeline-element-title">
+              NESESER - Computer network monitoring system
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">MNS Lab</h4>
             <div className="container">
               <span className="badge">Ruby on rails</span>
@@ -151,11 +185,14 @@ export default class Timeline extends Component {
               <span className="badge">InfluxDB</span>
             </div>
             <p className="project-description">
-              Monitoring system that helps Internet Service Providers manage their networks. It connects to routers and managed switches via
-              different protocols and checks device's health, status and other important parameters. The web application presents the real
-              time overview of the network as well as charts and network topology map.
+              Monitoring system that helps Internet Service Providers manage
+              their networks. It connects to routers and managed switches via
+              different protocols and checks device's health, status and other
+              important parameters. The web application presents the real time
+              overview of the network as well as charts and network topology
+              map.
             </p>
-            <img src="images/portfolio/neseser.png" alt="neseser" />
+            <img src={imageNeseser} alt="neseser" />
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -163,7 +200,9 @@ export default class Timeline extends Component {
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Vision system client application for quality control</h3>
+            <h3 className="vertical-timeline-element-title">
+              Vision system client application for quality control
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">Abis</h4>
             <div className="container">
               <span className="badge">C#</span>
@@ -171,13 +210,15 @@ export default class Timeline extends Component {
               <span className="badge">SQL Server</span>
             </div>
             <p className="project-description">
-              Industrial application that displays the quality control result of newly created product. It shows the plant operator any
-              flaws that were detected by the vision system so the product can be classified as OK or NOT OK. It is fully integrated with
-              PLC controllers and cameras so the process can be run automatically.
+              Industrial application that displays the quality control result of
+              newly created product. It shows the plant operator any flaws that
+              were detected by the vision system so the product can be
+              classified as OK or NOT OK. It is fully integrated with PLC
+              controllers and cameras so the process can be run automatically.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </section>
-    );
+    )
   }
 }
