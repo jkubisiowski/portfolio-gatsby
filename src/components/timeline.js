@@ -5,7 +5,6 @@ import WorkIcon from "material-ui-icons/Work"
 import "react-vertical-timeline-component/style.min.css"
 import imageNt from "../images/portfolio/nationaltheatret.png"
 import imageBilbo from "../images/portfolio/bilbo.png"
-import imageInnogear from "../images/portfolio/innogear.png"
 import imageNeseser from "../images/portfolio/neseser.png"
 
 export default class Timeline extends Component {

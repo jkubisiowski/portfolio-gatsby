@@ -2,8 +2,19 @@ import React from "react"
 
 import Header from "./../components/header"
 import About from "./../components/about"
-import profilepic from "./../images/profilepic.jpg"
 import Timeline from "./../components/timeline"
+import Resume from "./../components/resume"
+import Footer from "./../components/footer"
+
+import profilepic from "./../images/profilepic.jpg"
+import imageGit from "./../images/tech/git.png"
+import imageAngular from "./../images/tech/angular.png"
+import imageAspnet from "./../images/tech/aspnet.png"
+import imageAzure from "./../images/tech/azure.png"
+import imageCsharp from "./../images/tech/csharp.png"
+import imageJavascript from "./../images/tech/javascript.png"
+import imageNetCore from "./../images/tech/netcore.png"
+import imageReact from "./../images/tech/react.png"
 
 const data = {
   main: {
@@ -43,50 +54,50 @@ const data = {
         name: "C#",
         description:
           "My primary programming language and I've used it it almost every project I ever made including web applications (backend), services, desktop applications and console application.",
-        image: "csharp.png",
+        image: imageCsharp,
       },
       {
         name: "ASP.NET",
         description:
           "My favorite backend framework for web applications. I use both ASP.NET MVC and ASP.NET Web Api as well as ASP.NET Core which I find very convinient to use.",
-        image: "aspnet.png",
+        image: imageAspnet,
       },
       {
         name: ".NET Core",
         description:
           "It's basically .NET but more flexible, faster, more convienient to use and runs on Linux/MacOS. I like the job Microsoft has done here and started to use it as soon as version 1.0 was released.",
-        image: "netcore.png",
+        image: imageNetCore,
       },
       {
         name: "Azure",
         description:
           "Azure gives me a possibility to easily deploy the application an monitor it's health. I am familiar with all standard services such as App Service, SQL Server, Cosmos DB, Application Insight, load balancers and private networks. I also use Azure DevOps to configure CI/CD",
-        image: "azure.png",
+        image: imageAzure,
       },
       {
         name: "Javascript",
         description:
           "It's probably hard to develop any web application without Javascript. However I come from the .NET world so in any new project I would rather go with strongly-typed TypeScript.",
-        image: "javascript.png",
+        image: imageJavascript,
       },
       {
         name: "React",
         description:
           "Curently it is my first choice framework for creating web applications. I'm especially willing to develop more projects using React and Redux",
-        image: "react.png",
+        image: imageReact,
       },
 
       {
         name: "Angular",
         description:
           "I have used Angular to write many SPA production applications. ",
-        image: "angular.png",
+        image: imageAngular,
       },
       {
         name: "Git",
         description:
-          "I have worked with a team that wasn't using git. Once. It won't happen again. Period.",
-        image: "git.png",
+          "I have worked with a team that wasn't using git. Once. It won't happen again.",
+        image: imageGit,
       },
     ],
   },
@@ -97,6 +108,8 @@ const IndexPage = () => (
     <Header data={data.main} />
     <About data={data.main} />
     <Timeline />
+    <Resume data={data.resume} />
+    <Footer data={data.main} />
   </>
 )
 

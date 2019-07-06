@@ -1,19 +1,18 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 
 class Resume extends Component {
   render() {
     if (this.props.data) {
-      var skillmessage = this.props.data.skillmessage;
+      var skillmessage = this.props.data.skillmessage
       var skills = this.props.data.skills.map(function(skills) {
-        var projectImage = "images/tech/" + skills.image;
         return (
           <div key={skills.name} className="columns feature-item">
-            <img className="skill" alt={skills.name} src={projectImage} />
+            <img className="skill" alt={skills.name} src={skills.image} />
             <h5>{skills.name}</h5>
             <p>{skills.description}</p>
           </div>
-        );
-      });
+        )
+      })
     }
 
     return (
@@ -33,8 +32,8 @@ class Resume extends Component {
           </div>
         </div>
       </section>
-    );
+    )
   }
 }
 
-export default Resume;
+export default Resume
