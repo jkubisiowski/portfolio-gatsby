@@ -1,11 +1,13 @@
 import React from "react"
 
 import Header from "./../components/header"
+import About from "./../components/about"
+import profilepic from "./../images/profilepic.jpg"
 
 const data = {
   main: {
     name: "Jakub Kubisiowski",
-    image: "profilepic.jpg",
+    image: profilepic,
     bio:
       "I've been working with .NET technologies for over 5 years creating web applications and server-side services. I've gained knowledge in Microsoft technologies such as ASP.NET Web API, ASP.NET Core or Azure Cloud and popular front-end frameworks e.g. Angular and React. While working mostly in industrial area I have learned how to deliver critical software systems that need to be highly available, secure and fast.",
     contactmessage:
@@ -89,6 +91,11 @@ const data = {
   },
 }
 
-const IndexPage = () => <Header data={data.main} />
+const IndexPage = () => (
+  <>
+    <Header data={data.main} />
+    <About data={data.main} />
+  </>
+)
 
 export default IndexPage
