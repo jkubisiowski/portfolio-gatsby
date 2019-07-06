@@ -38,8 +38,7 @@ body {
 
 header {
   position: relative;
-  height: 800px;
-  min-height: 500px;
+  height: 100vh;
   width: 100%;
   background: #161415 url(../images/cover.jpg) no-repeat top center;
   background-size: cover !important;
@@ -154,7 +153,7 @@ header .scrolldown a:hover {
   letter-spacing: 2.5px;
   margin: 0 auto;
   z-index: 100;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
 }
@@ -197,13 +196,6 @@ ul#nav li a {
   -o-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-}
-
-ul#nav li a:active {
-  background-color: transparent !important;
-}
-ul#nav li.current a {
-  color: #f06000;
 }
 
 /* ------------------------------------------------------------------ */
