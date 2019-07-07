@@ -15,6 +15,7 @@ import imageCsharp from "./../images/tech/csharp.png"
 import imageJavascript from "./../images/tech/javascript.png"
 import imageNetCore from "./../images/tech/netcore.png"
 import imageReact from "./../images/tech/react.png"
+import SEO from "./../components/seo"
 
 const data = {
   main: {
@@ -105,6 +106,7 @@ const data = {
 
 const IndexPage = () => (
   <>
+    <SEO title="Jakub Kubisiowski - Full stack developer" lang="en" description="Jakub Kubisiowski's personal website inclduing profile, projects description and resume" />
     <Header data={data.main} />
     <About data={data.main} />
     <Timeline />
