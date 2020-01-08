@@ -27,14 +27,15 @@ export default class Timeline extends Component {
             <div className="container">
               <span className="badge">C#</span>
               <span className="badge">ASP.NET MVC</span>
+              <span className="badge">Tessitura</span>
               <span className="badge">EPiServer</span>
               <span className="badge">Azure</span>
               <span className="badge">React</span>
             </div>
             <p className="project-description">
-              The website of the National Theatre consists of CMS and ticketing
-              system. It contains many integrations with external systems such
-              as seat server, payment gateway, mailing system.
+              The Nationaltheatret project consists of CMS and ticketing
+              system. It is strongly integrated with Tessitura - the key software used in the arts & culture industry.
+              The main challange was to design a reliable and friendly checkout process that offers top-notch user experience when buying tickets online. 
             </p>
             <img src={imageNt} alt="nationaltheatret" />
           </VerticalTimelineElement>
