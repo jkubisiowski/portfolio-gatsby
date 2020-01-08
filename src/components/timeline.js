@@ -19,7 +19,7 @@ export default class Timeline extends Component {
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              National Theatre in Oslo
+              National Theater in Oslo
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Forte_ Digital
@@ -35,7 +35,7 @@ export default class Timeline extends Component {
             <p className="project-description">
               The Nationaltheatret project consists of CMS and ticketing
               system. It is strongly integrated with Tessitura - the key software used in the arts & culture industry.
-              The main challange was to design a reliable and friendly checkout process that offers top-notch user experience when buying tickets online. 
+              The main challenge was to design a reliable and friendly checkout process that offers top-notch user experience when buying tickets online. 
             </p>
             <img src={imageNt} alt="nationaltheatret" />
           </VerticalTimelineElement>
