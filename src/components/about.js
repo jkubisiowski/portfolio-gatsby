@@ -38,7 +38,7 @@ class About extends Component {
               <span className="white">
                 highly available, secure and fast.
               </span>{" "}
-              On the other hand working as a consultant teached me
+              On the other hand working as a consultant taught me
               <span className="white">
                 {" "}
                 close cooperation with the client
