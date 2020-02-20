@@ -22,29 +22,17 @@ class About extends Component {
           <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p>
-              I have been working with{" "}
-              <span className="white">.NET technologies for over 6 years</span>{" "}
-              creating web applications and server-side services. I have gained
-              knowledge in Microsoft technologies such as{" "}
-              <span className="white"> ASP.NET Web API, ASP.NET Core</span> and{" "}
-              <span className="white"> Azure Cloud </span> and frontend
-              frameworks like <span className="white">Angular</span> and{" "}
-              <span className="white">React</span>.
-              <br />
-              <br />
-              While working mostly in industrial area I have learned how to
-              deliver critical software systems that need to be{" "}
-              <span className="white">
-                highly available, secure and fast.
-              </span>{" "}
-              On the other hand working as a consultant taught me
-              <span className="white">
-                {" "}
-                close cooperation with the client
-              </span>{" "}
-              as well as{" "}
-              <span className="white">understanding the business</span>
+            <p>           
+              I have 7 years of hands-on experience in creating web applications, APIs and server side services. 
+              I possess a broad knowledge of the Microsoft technology stack including  <span className="white">C#, ASP.NET Core, ASP.NET Web API.</span>{" "}
+              I work with popular frontend frameworks such as <span className="white">React and Angular</span> in order to create modern web applications. 
+              I am familiar with <span className="white">cloud-based solutions</span> (Microsoft Azure) as many of my projects utilizes cloud services. 
+              While working mostly in industrial area I have learned how to deliver critical software systems that need to be <span className="white">highly available, secure and fast.</span>
+            <br/>
+            <br/>
+              I am not only an engineer but also a consultant willing to work closely with my clients. 
+              I focus on analysis and good understanding of the customer’s business to help finding the most valuable solution to business problems.             
+              I have been working as a project leader being responsible for both <span className="white">leading the development team and the deliveries</span>
             </p>
             <div className="row">
               <div className="columns contact-details">
