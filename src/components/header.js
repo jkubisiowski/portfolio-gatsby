@@ -53,8 +53,7 @@ class Header extends Component {
           <div className="banner-text">
             <h1 className="responsive-headline">{name}</h1>
             <h3>
-              I am a full-stack software developer <br /> specialized in
-              creating solutions for arts & culture
+              I am a full-stack software developer and project leader <br/> specialized in .NET and Azure
             </h3>
             <hr />
             <ul className="social">{networks}</ul>

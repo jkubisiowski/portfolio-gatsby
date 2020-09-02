@@ -3,6 +3,7 @@ import { VerticalTimeline } from "react-vertical-timeline-component"
 import { VerticalTimelineElement } from "react-vertical-timeline-component"
 import WorkIcon from "material-ui-icons/Work"
 import "react-vertical-timeline-component/style.min.css"
+import imageLos from "../images/portfolio/los.png"
 import imageNt from "../images/portfolio/nationaltheatret.png"
 import imageBilbo from "../images/portfolio/bilbo.png"
 import imageNeseser from "../images/portfolio/neseser.png"
@@ -12,6 +13,30 @@ export default class Timeline extends Component {
     return (
       <section id="portfolio">
         <VerticalTimeline layout="1-column" animate={false}>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2020"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              LOS | CMS and electrical energy e-commerce
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Forte_ Digital
+            </h4>
+            <div className="container">
+              <span className="badge">C#</span>
+              <span className="badge">ASP.NET MVC</span>              
+              <span className="badge">EPiServer</span>
+              <span className="badge">Azure</span>
+              <span className="badge">React</span>
+            </div>
+            <p className="project-description">
+              LOS is one of the biggest electrical energy providers in Norway. The project consists of the CMS where editors put the marketing content and selling platform where users can buy the energy for their houses.
+            </p>
+            <img src={imageLos} alt="nationaltheatret" />
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2019"
@@ -19,7 +44,7 @@ export default class Timeline extends Component {
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              National Theater in Oslo
+              Oslo National Theater | CMS and ticketing system (Development)
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Forte_ Digital
@@ -33,9 +58,7 @@ export default class Timeline extends Component {
               <span className="badge">React</span>
             </div>
             <p className="project-description">
-              The Nationaltheatret project consists of CMS and ticketing
-              system. It is strongly integrated with Tessitura - the key software used in the arts & culture industry.
-              The main challenge was to design a reliable and friendly checkout process that offers top-notch user experience when buying tickets online. 
+            The Nationaltheatret project consists of a CMS and a ticketing system. It is strongly integrated with Tessitura, the key software used in the arts and culture industry. The main challenge was to design a reliable and friendly checkout process that offers top-notch user experience when buying tickets online.
             </p>
             <img src={imageNt} alt="nationaltheatret" />
           </VerticalTimelineElement>
@@ -46,7 +69,7 @@ export default class Timeline extends Component {
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              Bilbo - social platform for book sharing
+            Bilbo | Social Platform for books sharing
             </h3>
             <h4 className="vertical-timeline-element-subtitle">Own project</h4>
             <div className="container">
