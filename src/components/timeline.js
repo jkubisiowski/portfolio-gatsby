@@ -44,6 +44,28 @@ export default class Timeline extends Component {
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
+              DataPrime | Real estate dashboard
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Toptal
+            </h4>
+            <div className="container">
+              <span className="badge">C#</span>
+              <span className="badge">ASP.NET Core</span>
+              <span className="badge">Azure</span>
+              <span className="badge">Azure API Management</span>            
+            </div>
+            <p className="project-description">
+            Web application working as a real estate dashboard. It shows prices, price indices and trends related to real estates. The user can filter and segment the data by areas and property types. The data are restricted based on user's subscription level and role.
+            </p>            
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2019"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
               Oslo National Theater | CMS and ticketing system (Development)
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
