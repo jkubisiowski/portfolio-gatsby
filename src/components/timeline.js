@@ -219,7 +219,7 @@ export default class Timeline extends Component {
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
-              NESESER - Computer network monitoring system
+              NESESER | Computer network monitoring system
             </h3>
             <h4 className="vertical-timeline-element-subtitle">MNS Lab</h4>
             <div className="container">
