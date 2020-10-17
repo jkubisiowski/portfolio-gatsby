@@ -42,20 +42,7 @@ class About extends Component {
                   <br />
                   <span>{email}</span>
                 </p>
-              </div>
-              <div className="columns download">
-                <p>
-                  <a
-                    href={resumeDownload}
-                    className="button"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fa fa-download" />
-                    Download Resume
-                  </a>
-                </p>
-              </div>
+              </div>              
             </div>
           </div>
         </div>
