@@ -60,7 +60,7 @@ const data = {
       {
         name: "ASP.NET",
         description:
-          "My favorite backend framework for web applications. I use both ASP.NET MVC and ASP.NET Web Api as well as ASP.NET Core which I find very convinient to use.",
+          "My favorite backend framework for web applications. I use both ASP.NET MVC and ASP.NET Web Api as well as ASP.NET Core which I find very convenient to use.",
         image: imageAspnet,
       },
       {
@@ -72,7 +72,7 @@ const data = {
       {
         name: "Azure",
         description:
-          "Azure gives me a possibility to easily deploy the application an monitor it's health. I am familiar with all standard services such as App Service, SQL Server, Cosmos DB, Application Insight, load balancers and private networks. I also use Azure DevOps to configure CI/CD",
+          "Azure gives me a possibility to easily deploy the application an monitor its health. I am familiar with all standard services such as App Service, SQL Server, Cosmos DB, Application Insight, load balancers and private networks. I also use Azure DevOps to configure CI/CD",
         image: imageAzure,
       },
       {

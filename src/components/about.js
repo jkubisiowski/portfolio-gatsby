@@ -20,7 +20,7 @@ class About extends Component {
             />
           </div>
           <div className="nine columns main-col">
-            <h2>About Me test</h2>
+            <h2>About Me</h2>
 
             <p>           
               I have 7 years of hands-on experience in creating web applications, APIs and server side services. 
