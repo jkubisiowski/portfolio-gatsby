@@ -106,12 +106,13 @@ const data = {
 
 const IndexPage = () => (
   <>
-    <SEO title="Jakub Kubisiowski - Full stack developer" lang="en" description="Jakub Kubisiowski's personal website inclduing profile, projects description and resume" />
-    <Header data={data.main} />
-    <About data={data.main} />
-    <Timeline />
-    <Resume data={data.resume} />
-    <Footer data={data.main} />
+    <p>Temporarily in maintenance :) </p>
+    {/*<SEO title="Jakub Kubisiowski - Full stack developer" lang="en" description="Jakub Kubisiowski's personal website inclduing profile, projects description and resume" />*/}
+    {/*<Header data={data.main} />*/}
+    {/*<About data={data.main} />*/}
+    {/*<Timeline />*/}
+    {/*<Resume data={data.resume} />*/}
+    {/*<Footer data={data.main} />*/}
   </>
 )
 
